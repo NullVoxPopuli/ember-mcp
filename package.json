@@ -2,18 +2,6 @@
   "name": "ember-mcp",
   "version": "0.0.1",
   "description": "MCP server for Ember.js documentation, guides, and best practices",
-  "type": "module",
-  "main": "index.js",
-  "bin": {
-    "ember-mcp": "./index.js"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
-  },
   "keywords": [
     "ember",
     "emberjs",
@@ -21,14 +9,31 @@
     "mcp",
     "model-context-protocol"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NullVoxPopuli/ember-mcp.git"
+  },
   "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ember-mcp": "./index.js"
+  },
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",
     "node-fetch": "^3.3.2",
     "pluralize": "^8.0.0"
   },
   "devDependencies": {
+    "release-plan": "^0.17.0",
     "vitest": "^3.2.4"
   }
 }
