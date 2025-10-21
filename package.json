@@ -1,6 +1,6 @@
 {
   "name": "ember-mcp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MCP server for Ember.js documentation, guides, and best practices",
   "keywords": [
     "ember",
