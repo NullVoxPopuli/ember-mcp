@@ -22,7 +22,7 @@ An MCP (Model Context Protocol) server that provides comprehensive access to Emb
 1. Clone or download this repository:
 
 ```bash
-cd ember-docs-mcp
+cd ember-mcp
 npm install
 ```
 
@@ -38,7 +38,7 @@ Add this to your MCP servers configuration:
   "mcpServers": {
     "ember-docs": {
       "command": "node",
-      "args": ["/absolute/path/to/ember-docs-mcp/index.js"]
+      "args": ["/absolute/path/to/ember-mcp/index.js"]
     }
   }
 }

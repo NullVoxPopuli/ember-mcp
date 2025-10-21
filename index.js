@@ -18,7 +18,7 @@ class EmberDocsServer {
   constructor() {
     this.server = new Server(
       {
-        name: "ember-docs-mcp",
+        name: "ember-mcp",
         version: "1.0.0",
       },
       {

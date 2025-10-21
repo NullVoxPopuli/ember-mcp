@@ -1,11 +1,11 @@
 {
-  "name": "ember-docs-mcp",
-  "version": "1.0.0",
+  "name": "ember-mcp",
+  "version": "0.0.1",
   "description": "MCP server for Ember.js documentation, guides, and best practices",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "ember-docs-mcp": "./index.js"
+    "ember-mcp": "./index.js"
   },
   "scripts": {
     "start": "node index.js",
