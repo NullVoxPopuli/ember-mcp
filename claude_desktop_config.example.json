@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ember-docs": {
+      "command": "node",
+      "args": ["/absolute/path/to/ember-docs-mcp/index.js"]
+    }
+  }
+}
