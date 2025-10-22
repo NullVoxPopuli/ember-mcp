@@ -21,24 +21,28 @@ An MCP (Model Context Protocol) server that provides comprehensive access to Emb
 
 Using the latest release in your `mcpServers` configuration:
 ```jsonc
-{"mcpServers": {
-  "ember": {
-    "command": "npx",
-    "args" ["-y", "ember-mcp@0.0.2"]
+{
+  "mcpServers": {
+    "ember": {
+      "command": "npx",
+      "args": ["-y", "ember-mcp@0.0.2"]
+    }
   }
-}}
+}
 ```
 
 
 <details><summary>using a tag-release from github</summary>
 
 ```jsonc
-{"mcpServers": {
-  "ember": {
-    "command": "npx",
-    "args" ["-y", "github:NullVoxPopuli/ember-mcp#v0.0.2-ember-mcp"]
+{
+  "mcpServers": {
+    "ember": {
+      "command": "npx",
+      "args": ["-y", "github:NullVoxPopuli/ember-mcp#v0.0.2-ember-mcp"]
+    }
   }
-}}
+}
 ```
 
 </details>
