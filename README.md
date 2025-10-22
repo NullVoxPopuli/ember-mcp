@@ -1,6 +1,6 @@
-# Ember Docs MCP Server
+# Ember MCP Server
 
-An MCP (Model Context Protocol) server that provides comprehensive access to Ember.js documentation, API references, guides, and community best practices.
+An MCP (Model Context Protocol) server that provides comprehensive access to Ember documentation, API references, guides, and community best practices.
 
 ## Features
 
@@ -14,17 +14,19 @@ An MCP (Model Context Protocol) server that provides comprehensive access to Emb
 
 ### Prerequisites
 
-- Node.js 18 or higher
+- Node.js 22 or higher
 - any MCP-compatible client
 
 ### Setup
 
 Using the latest release in your `mcpServers` configuration:
 ```jsonc
-"mcpServers": {
-  "ember": {
-    "command": "npx",
-    "args" ["-y", "ember-mcp@0.0.2"]
+{
+  "mcpServers": {
+    "ember": {
+      "command": "npx",
+      "args": ["-y", "ember-mcp@0.0.2"]
+    }
   }
 }
 ```
@@ -33,10 +35,12 @@ Using the latest release in your `mcpServers` configuration:
 <details><summary>using a tag-release from github</summary>
 
 ```jsonc
-"mcpServers": {
-  "ember": {
-    "command": "npx",
-    "args" ["-y", "github:NullVoxPopuli/ember-mcp#v0.0.2-ember-mcp"]
+{
+  "mcpServers": {
+    "ember": {
+      "command": "npx",
+      "args": ["-y", "github:NullVoxPopuli/ember-mcp#v0.0.2-ember-mcp"]
+    }
   }
 }
 ```
@@ -135,7 +139,7 @@ What's new in the latest Ember version?
 ```
 User: I need to implement a feature that tracks user preferences. What's the best approach in modern Ember?
 
-Claude will:
+The agent will:
 1. Use search_ember_docs to find relevant service and state management docs
 2. Use get_best_practices to recommend modern patterns
 3. Use get_api_reference to show specific API details for Services
@@ -147,7 +151,7 @@ Claude will:
 ```
 User: How do I use the @tracked decorator?
 
-Claude will:
+The agent will:
 1. Use get_api_reference to get detailed @tracked documentation
 2. Use search_ember_docs to find related concepts
 3. Use get_best_practices to show modern reactive patterns
@@ -158,7 +162,7 @@ Claude will:
 ```
 User: I'm upgrading from Ember 3.x to 4.x, what do I need to know?
 
-Claude will:
+The agent will:
 1. Use get_ember_version_info to get migration information
 2. Use get_best_practices for modern patterns replacing deprecated ones
 3. Use search_ember_docs to find upgrade guides
