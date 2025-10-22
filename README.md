@@ -15,7 +15,7 @@ An MCP (Model Context Protocol) server that provides comprehensive access to Emb
 ### Prerequisites
 
 - Node.js 18 or higher
-- Claude Desktop or any MCP-compatible client
+- any MCP-compatible client
 
 ### Setup
 
