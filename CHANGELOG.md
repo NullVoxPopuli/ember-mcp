@@ -2,6 +2,17 @@
 
 ## Release (2025-10-22)
 
+* ember-mcp 0.0.4 (patch)
+
+#### :memo: Documentation
+* `ember-mcp`
+  * [#7](https://github.com/NullVoxPopuli/ember-mcp/pull/7) Revise README for Ember MCP Server and Node.js version ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 1
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
+## Release (2025-10-22)
+
 * ember-mcp 0.0.3 (patch)
 
 #### :bug: Bug Fix
